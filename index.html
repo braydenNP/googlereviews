@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Basic HTML with CSS and JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class ="container">
+            <form class="reviewForm">
+                <p class="formText">current rating</p>
+                <input type="currentRating" id='currentRating' placeholder="Your current rating">    
+                <p class="formText">number of reviews</p>
+                <input type="number" id='numberReviews' placeholder="Number of reviews" min="0">
+                <p class="formText">desired rating</p>
+                <input type="number" id='desiredRating' placeholder="Your desired rating" min="1" max="5">
+            </form>
+            <p class="result" id="result">
+                you need 300 5 stars reviews
+            </p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
